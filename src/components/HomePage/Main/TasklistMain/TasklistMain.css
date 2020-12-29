@@ -1,0 +1,91 @@
+.TaskListMain{
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    max-height: 400px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: 400;
+
+}
+
+h6{
+    font-family: inherit;
+    color: red;
+}
+
+.TaskListMain h2 {
+    font-family: inherit;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.TodosMain{
+    height: 200px;
+    overflow: scroll;   
+    transition: ease 0.2s;
+}
+
+.TaskListMainName{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.TaskListMainNameIcon{
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    align-items: center;
+    color: transparent;
+}
+
+
+.TodosMain:hover::-webkit-scrollbar-thumb{
+    background-color: #d4d9d7;
+}
+
+
+.TaskListMainNameIcon:hover{
+    cursor: pointer;
+}
+
+.TaskListMainName:hover .TaskListMainNameIcon{
+    color: black;
+}
+
+.DeleteBtn:hover{
+    cursor: pointer;
+}
+
+.TaskListMainName input{
+    padding: 5px;
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+}
+
+.TaskListMainName input:hover{
+    padding: 5px;
+    height: 15px;
+    background-color: rgb(230, 204, 204);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    border-bottom: none;
+}
+
+.checkIcon:hover{
+    color: green;
+}
+.timesIcon:hover{
+color: red;
+}
+.toolsIcon:hover{
+    color: #5995fd;
+}

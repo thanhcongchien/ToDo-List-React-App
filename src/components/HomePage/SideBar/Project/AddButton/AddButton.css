@@ -1,0 +1,21 @@
+.AddButton{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    margin: 1.5rem auto 0rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    margin-top: auto;
+    
+}
+
+.AddButton:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    background-color: #6a097d;
+}
+
+.AddButtonInputArea input{
+    background-color: white;
+    color: black;
+    height: 20px
+}

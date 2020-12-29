@@ -1,0 +1,77 @@
+.TodoMain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.TodoMainIcon{
+    margin-left: auto;
+    font-size: 0.8rem;
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: transparent;
+}
+
+.TodoMain:hover .TodoMainIcon{
+    color: black;
+
+    
+}
+
+.TodoMainCheckbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.TodoMainCheckbox:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    overflow-y: scroll;
+    
+}
+
+.TodoMainCheckbox input[type='text']{
+    padding: 5px;
+    height: 15px;
+    background-color: #ebebeb;
+    color: black;
+    border-radius: 50px;
+    border-bottom: none;
+}
+.TodoMainCheckbox input:hover{
+ background-color:#ebebeb;
+}
+
+.crossed-line {
+    text-decoration: line-through;
+}
+.TodoMain:hover{
+        /* padding: 5px;
+    height: 15px; */
+    background-color: #ebebeb;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    border-bottom: none;
+}
+
+.editIcon:hover{
+color: #5995fd;
+}
+.cancelIcon:hover{
+color: rgb(250, 8, 8);
+}
+
+.timesIcon:hover{
+    color: red;
+}

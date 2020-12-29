@@ -1,0 +1,33 @@
+.Input{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+label{
+    display: block;
+}
+
+input{
+    margin: 10px;
+    height: 2.5rem;
+    border-radius: 50px;
+    border: none;   
+    padding: 3px;
+    background-color: #ebebeb;
+    outline: none;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #333;
+}

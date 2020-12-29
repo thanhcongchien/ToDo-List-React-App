@@ -1,0 +1,12 @@
+.Image{
+    /* background-image: url(../../../assets/images/image.jpg); */
+    /* background-image: url(../../../assets//images/undraw_accept_tasks_po1c.svg); */
+    background-image: url(../../../assets/images/undraw_working_late_pukg.svg);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 700px){
+    .Image{
+        display: none;
+    }
+}

@@ -1,0 +1,88 @@
+.MainDisplay{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 30px;
+    margin-top: 3.3rem;
+    padding: 20px 3px;
+    overflow-y: scroll;
+    
+}
+
+.TaskListArea{
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.row{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.col-lg-3{
+    display: inline-block;
+    margin: 30px;
+}
+
+.MainDisplay:hover::-webkit-scrollbar-thumb{
+    background-color: #d4d9d7;
+}
+
+.MainDisplay:hover::-webkit-scrollbar{
+    width: 5px;
+}
+
+.TaskListOption{
+    width: 200px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TaskListOption:hover{
+    cursor: pointer;
+}
+.AddToDo{
+    display: inline-flex;;
+    border-radius: 50px;
+    background-color: #5995fd;
+    width: 90px;
+    padding-left: 5%;
+       transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.AddToDo:hover{
+     font-weight: 600;
+    color: rgb(230, 224, 224);
+     transform: scale(1.1);
+     background-color: #113e8d;
+}
+
+.ShareToDo{
+    margin-top: 1rem;
+    display: inline-flex;
+    border-radius: 50px;
+    background-color: #5995fd;
+    width: 90px;
+    padding-left: 5%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+.ShareToDo:hover{
+     font-weight: 600;
+    color: rgb(230, 224, 224);
+     transform: scale(1.1);
+     background-color: #113e8d;
+}
+.AddIcon{
+    margin-top: 0.4rem;
+}
+.ShareIcon{
+    margin-top: 0.5rem;
+}
+

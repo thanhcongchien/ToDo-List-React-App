@@ -1,0 +1,33 @@
+.Heading{
+    display: flex;
+    padding: 0.3rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    margin: 1.5rem auto 0rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.Heading:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #6a097d;
+}
+
+.LabelHeading {
+    color: white;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.LabelHeading:hover{
+    font-weight: 800;
+}
+
+.SmallAddButton {
+    font-size: large;
+}
+
+.IconHeading{
+    font-size: x-large;
+}

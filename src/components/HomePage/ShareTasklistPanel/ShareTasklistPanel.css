@@ -1,0 +1,17 @@
+button:hover{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+.share_button:hover{
+    color: #ffffff;
+    background-color: #3260ad;
+    transform: scale(1.2);
+    font-weight: 400;
+}
+.share_title{
+    font-weight: bold;
+}
+

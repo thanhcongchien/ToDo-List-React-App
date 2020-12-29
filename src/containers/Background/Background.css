@@ -1,0 +1,11 @@
+.Background{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('../../assets/images/background.jpg'); */
+    background-image: linear-gradient(120deg, #fdfbf9 10%, #8b89fc 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

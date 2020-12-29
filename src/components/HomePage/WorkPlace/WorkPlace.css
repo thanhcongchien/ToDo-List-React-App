@@ -1,0 +1,41 @@
+.WorkPlace {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+     overflow-x: hidden; 
+}
+
+.ActionArea{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Date{
+    justify-content: center;
+    margin-left: 50%;
+}
+#date{
+    font-size: large;
+    font-family: 'pointer' ,cursive;
+}
+
+
+.simple_content{
+      font-weight: bold;
+      font-size: xx-large;
+}
+/* .TaskListOption{
+   background-color: blue;
+   justify-content: center;
+    margin-left: 25%;
+    width: 300px;
+
+} */
+
+.AddIcon {
+    padding-left: 5%;
+}
+.ShareIcon{
+     padding-left: 5%;
+}

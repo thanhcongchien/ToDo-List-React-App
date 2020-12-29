@@ -1,0 +1,6 @@
+.Row{
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+}

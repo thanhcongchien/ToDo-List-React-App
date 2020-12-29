@@ -1,0 +1,17 @@
+.SideBar{
+    flex: 1;
+     /* background-image: linear-gradient(120deg, #fad9bf 10%, #8b89fc 100%); */
+    background-color: #5995fd;
+    /* height: calc(100vh - 44px); */
+
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+@media(max-width: 650px){
+    .SideBar{
+        display: none;
+    }
+}

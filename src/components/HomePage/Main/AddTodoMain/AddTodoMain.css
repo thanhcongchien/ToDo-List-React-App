@@ -1,0 +1,40 @@
+.AddTodoMain{
+    margin-top: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AddTodoMain input {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+
+.AddTodoMain input{
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    height: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-bottom: none;
+    border-radius: 0px;
+}
+.AddTodoMain input:hover{
+    height: 20px;
+    color: black;
+    border-radius: 50px;
+     background-color: rgb(230, 204, 204);
+}
+
+/* .AddTodoMain input:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+} */
+
+.AddTodoMainBtn:hover{   
+    cursor: pointer;
+    color: #5995fd;
+}

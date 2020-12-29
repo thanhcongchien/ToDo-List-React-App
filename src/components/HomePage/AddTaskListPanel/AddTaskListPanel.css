@@ -1,0 +1,23 @@
+.AddTaskListPanel {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+    
+.AddButtonSubmit{
+    margin-left: auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: thistle;
+
+}
+
+.AddButtonSubmit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(148, 87, 148);
+}
