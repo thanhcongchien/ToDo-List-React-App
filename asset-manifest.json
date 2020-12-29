@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ToDo-List-React-App/static/css/main.e1f4f35f.chunk.css",
+    "main.js": "/ToDo-List-React-App/static/js/main.ea0f5354.chunk.js",
+    "main.js.map": "/ToDo-List-React-App/static/js/main.ea0f5354.chunk.js.map",
+    "runtime-main.js": "/ToDo-List-React-App/static/js/runtime-main.d488f8eb.js",
+    "runtime-main.js.map": "/ToDo-List-React-App/static/js/runtime-main.d488f8eb.js.map",
+    "static/js/2.8731eefe.chunk.js": "/ToDo-List-React-App/static/js/2.8731eefe.chunk.js",
+    "static/js/2.8731eefe.chunk.js.map": "/ToDo-List-React-App/static/js/2.8731eefe.chunk.js.map",
+    "index.html": "/ToDo-List-React-App/index.html",
+    "static/css/main.e1f4f35f.chunk.css.map": "/ToDo-List-React-App/static/css/main.e1f4f35f.chunk.css.map",
+    "static/js/2.8731eefe.chunk.js.LICENSE.txt": "/ToDo-List-React-App/static/js/2.8731eefe.chunk.js.LICENSE.txt",
+    "static/media/Image.css": "/ToDo-List-React-App/static/media/undraw_working_late_pukg.6aa38b49.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d488f8eb.js",
+    "static/js/2.8731eefe.chunk.js",
+    "static/css/main.e1f4f35f.chunk.css",
+    "static/js/main.ea0f5354.chunk.js"
+  ]
+}
